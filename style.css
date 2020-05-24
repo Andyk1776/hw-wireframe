@@ -1,6 +1,8 @@
 .header {
         margin-top: 20px;
-        font-size: ;
+        background-color: #ebebeb;
+        text-align: center;
+        font-size: 25px;
 }
 .paragraph {
         padding: 25px;
@@ -10,8 +12,25 @@
 
 .h1 {
     width: 495px;
+    color: #777777;
+    background-color: #ebebeb;
+    font-size: 24px;
 }
 
 .h2 {
     width: 495px;
+    color: #777777;
+    background-color: #ebebeb;
+    font-size: 25px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #ebebeb;
+    font-size: 25px;
+}
+
+.aside {
+    float: right;
+    background-color: #ebebeb;
 }
