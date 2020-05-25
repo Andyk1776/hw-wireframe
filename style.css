@@ -15,6 +15,7 @@
     color: #777777;
     background-color: #ebebeb;
     font-size: 24px;
+    float: left;
 }
 
 .h2 {
@@ -22,15 +23,27 @@
     color: #777777;
     background-color: #ebebeb;
     font-size: 25px;
+    float: left;
 }
 
 .footer {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
     background-color: #ebebeb;
-    font-size: 25px;
-}
+    font-size: 20px;
+
 
 .aside {
-    float: right;
-    background-color: #ebebeb;
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: left;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+
+}
+.side {
+    margin: .5rem;
 }
